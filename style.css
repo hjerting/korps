@@ -1,0 +1,11 @@
+body {
+    margin: 2em;
+}
+
+.item {
+    float: left;
+}
+
+.color {
+    margin-right: 5em;
+}

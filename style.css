@@ -1,29 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Montserrat&family=Nunito+Sans:wght@900&family=Raleway:wght@800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@900&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
-nav h1 {
+.headline {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
-    color: red;
     text-transform: uppercase;
 }
 
-h1 {
-    margin-top: 1em;
+.color {
+    margin-right: 5em;
 }
 
-img {
+.item img {
     margin-bottom: 0.5em;
 }
 
-.container-flex {
-    margin: 0;
+.item h1 {
+    margin: 1em 0 0.5em 0;
 }
 
-.color {
-    margin-right: 3em;
+.logo {
+    position: absolute;
+    top: 0em;
+    right: 0em;
+}
+
+.jumbotron {
+    background-color: #faf2ec;
+}
+
+.jumbotron .image {
+    text-align: center;
+}
+
+.jumbotron .image img {
+    max-width: 60%;
 }
